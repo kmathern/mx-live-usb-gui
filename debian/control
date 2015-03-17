@@ -1,0 +1,12 @@
+Source: mx-live-usb-gui
+Section: system
+Priority: optional
+Maintainer: anticapitalista <antiX@operamail.com>
+Build-Depends: debhelper (>= 9.20120115)
+Standards-Version: 3.9.4
+Homepage: http://antix.mepis.org
+
+Package: mx-live-usb-gui
+Architecture: all 
+Depends: live-usb-gui-antix, mx-viewer 
+Description: Run antiX/MX live with persistence on a usb device.
